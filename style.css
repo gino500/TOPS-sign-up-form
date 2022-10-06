@@ -26,7 +26,7 @@
 }
 
 .picture {
-    background-image: url("/gravityparadise.jpg");
+    background-image: url("gravityparadise.jpg");
     background-size: 170% 100%;
     background-repeat: no-repeat;
     background-position: center center;
