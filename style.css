@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Cinzel', 'serif', 'Times New Roman'; 
+     
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: wrap;
+    word-wrap: break-word;
+    
+}
+
+.content {
+    display: flex;
+    flex-flow: wrap;
+    max-width: 700px;
+    min-width: 43vw;
+    flex: 1;
+}
+
+.picture {
+    background-image: url("/gravityparadise.jpg");
+    background-size: 170% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    flex: 1 100%;
+} 
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div > img {
+    padding-top: 2%;
+    height: 12vh;
+    width: 10vw;
+}
+    
+div > h1 {
+    text-align: center;
+    color:rgba(21, 252, 252, 0.87);
+    padding: 3% 10% 0 0;
+}
+
+h1 > span {
+    color: rgb(255, 0, 191);
+}
+
+
+.right-container {
+    background: rgba(7, 2, 29, 0.877);
+    min-width: 400px;
+    height: 100vh;
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.right-text {
+    color: antiquewhite;
+    font-size: 1.3rem;
+    justify-items: flex-start;
+    padding: 3% 3% 4% 3%;
+}
+
+.right-text p:nth-child(2) {
+    color: yellow;
+    padding: 10px 0 1% 0;
+}
+
+.right-text p:nth-child(3) {
+    padding: 10px 0 0 0 ;
+}
+
+.right-text > p span {
+    font-style: italic;
+    color: yellow;
+}
+
+
+.form-container{
+    display: flex;
+    align-items: center;
+    background: rgba(7, 2, 29, 0.877);
+    padding: 0% 0 5% 0;
+    box-shadow: 0em 1em 1em black;
+    overflow: auto;
+    
+    
+}
+
+  form {
+    max-width: 650px;
+    padding: 0% 3% 0 3%;
+    
+}
+
+form > p:nth-child(1) {
+    color: yellow;
+    padding: 3% 0 2% 0;
+    font-size: 1.5rem;
+}
+
+.input-container {
+    display: flex;
+    display: inline flow-root list-item;
+    list-style: none;
+    padding: 6% 0 0 0;
+    /* background: rgba(7, 2, 29, 0.877); */
+    
+}
+
+label {
+    display: block;
+    color: antiquewhite;
+    font-size: 1.2rem;
+  }
+  
+  input {
+    display: block;
+    width: 280px;
+    height: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+
+  .submit-container {
+    padding: 5% 0 0 3%;
+  }
+
+  .create-btn { 
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    color: yellow;
+    background: none;
+    border: 2px solid rgba(21, 252, 252, 0.87); 
+    transition: .3s;
+  }
+
+
+  .member > p {
+    padding: 4% 0 5% 3%;
+    color: antiquewhite;
+    font-size: 1rem;
+  }
+
+  .member > p .btn {
+    color: yellow;
+    font-size: 1rem;
+    padding-left: 1%;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    border: 2px solid yellow;
+    color:  rgba(21, 252, 252, 0.87);
+  }
+
+  p .btn:hover {
+    color:  rgba(21, 252, 252, 0.87);
+  }
+
+  input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2.5px solid rgb(23, 154, 197);
+  }
+
+  
+   
+ 
+  
+
+
+    
